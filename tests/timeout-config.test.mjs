@@ -5,8 +5,7 @@ import os from "node:os";
 import path from "node:path";
 import { defaults, toCfg, toProxy, loadConfig, writeConfig } from "../lib/config.js";
 import { Config } from "../lib/index.js";
-import { timeoutFor } from "../lib/proxy/errors.js";
-import { DEFAULT_TIMEOUT_MS, MAX_TIMEOUT_MS } from "../lib/timeout.js";
+import { timeoutFor, DEFAULT_TIMEOUT_MS, MAX_TIMEOUT_MS } from "../lib/proxy/errors.js";
 import { settingsHandler } from "../lib/routes.js";
 import { applyFollowSystem } from "../lib/system-proxy.js";
 
